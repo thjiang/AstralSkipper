@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AstralSkipper",
+  "version": "1.0",
+  "description": "A browser extension designed to bypass intermediary pages on websites like Zhihu and Juejin",
+  "permissions": [
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
