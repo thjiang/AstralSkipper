@@ -6,6 +6,7 @@ chrome.webNavigation.onBeforeNavigate.addListener(details => {
     { domain: "link.zhihu.com", param: "target" },
     { domain: "link.juejin.cn", param: "target" },
     { domain: "link.csdn.net", param: "target" },
+    { domain: "hd.nowcoder.com", param: "target" },
     { domain: "www.yuque.com", param: "url" }
   ];
 
